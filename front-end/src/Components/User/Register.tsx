@@ -69,7 +69,7 @@ const Register = () => {
       
       await register(name, email, password, phoneNumber, imageUrl);
       toast.success("Signup successful");
-      navigate("/login");
+      navigate("/userProfile");
     } catch (error: any) {
       setError({ global: error.message || "Something went wrong." });
     } finally {

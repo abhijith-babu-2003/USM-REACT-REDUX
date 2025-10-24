@@ -5,8 +5,7 @@
   "scripts": {
     "build": "tsc",
     "start": "npm run build && node dist/app.js",
- "dev": "tsx watch src/app.ts",
-
+    "dev": "tsx watch src/app.ts",
     "clean": "rimraf dist"
   },
   "dependencies": {
